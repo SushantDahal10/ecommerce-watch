@@ -1,0 +1,136 @@
+/* You can include this in your CSS file, e.g., cart.css */
+
+.cart-container {
+width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-empty {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .start-shopping {
+    margin-top: 20px;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-items {
+    margin-top: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-product img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+  }
+  
+ 
+  
+  .total-price {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+  }
+  .cart-quantity{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 75px;
+  }
+  .cart-productprice {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 140px;
+  }
+  
+  .cart-productprice {
+    font-weight: bold;
+  }
+  .cart-product {
+    display: flex;
+    align-items: center;
+  }
+  .cart-product h3 {
+    margin: 0;
+  }
+  .cart-quantity button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .cart-quantity .count {
+    font-weight: bold;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .clear-cart {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-shopping {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  /* Styling for Links and Icons */
+  span {
+    margin-left: 5px;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
